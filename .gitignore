@@ -1,7 +1,7 @@
-/my_env
-/venv
+my_env/
+venv/
 ENV/
-.ipynb_checkpoints
-__pycache__
+.ipynb_checkpoints/
+__pycache__/
 *.pyc
 datasets/
