@@ -29,13 +29,13 @@ O objetivo é construir um modelo de regressão para prever o preço mediano de 
 Clique no botão **Open in Colab** no topo deste README para rodar o notebook interativamente na nuvem sem precisar instalar nada.
 
 ### Localmente
-Clone este repositório, e depois crie e ative um ambiente virtual:
+1. Clone este repositório, e depois crie e ative um ambiente virtual:
 
 python3 -m venv my_env
 source my_env/bin/activate  # Linux/macOS
-# my_env\Scripts\activate   # Windows
+my_env\Scripts\activate   # Windows
 
-Instale as dependências e abra o Jupyter:
+2. Instale as dependências e abra o Jupyter:
 
 pip install pandas numpy matplotlib scikit-learn jupyter
 jupyter notebook Housing.ipynb
